@@ -1,3 +1,10 @@
+
+name: Node CI
+
+on:
+  push:
+    paths:
+      - "**Dockerfile**"
 name: Node CI
 
 on: [push]
